@@ -62,6 +62,18 @@ header .shopping span{
   width: 100%;
   padding: 10%;
 }
+.list .item button:active{
+  background-color: gray;
+  color: #fff;
+  width: 100%;
+  padding: 10%;
+}
+.list .item button::after{
+  background-color: gray;
+  color: #fff;
+  width: 100%;
+  padding: 10%;
+}
 .card{
   position: fixed;
   top:0;
